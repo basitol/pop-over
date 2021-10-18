@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.alert {
+  height: 100vh;
+  padding-top: 98px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #291c7dda;
+}
+
+.lendme-alert {
+  max-width: 325px;
+  height: 355px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.lendme-alert .popover-content {
+  background: var(--ion-color-primary);
+  border-radius: 10px;
+}
+
+.lendme-alert .alert-wrapper {
+  display: block;
+  font-family: "Montserrat";
+  font-style: normal;
+  border-radius: 10px;
+  padding: 66px 44px;
+  margin: 0 auto;
+}
+
+.lendme-alert .alert-wrapper .alert-head {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.lendme-alert .alert-wrapper .alert-head h2 {
+  -webkit-margin-before: 0em;
+          margin-block-start: 0em;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
+  color: #5f22cb;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.lendme-alert .alert-wrapper .alert-message {
+  color: #39255f;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+  text-align: justify;
+  padding: 0;
+}
+
+.lendme-alert .alert-wrapper .empty-state-text {
+  color: #ababab;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.lendme-alert .alert-wrapper .alert-button-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 24px;
+  width: 100%;
+  padding: 0;
+}
+
+.lendme-alert .alert-wrapper button.alert-button {
+  background: #5f22cb;
+  color: #ffffff;
+  border-radius: 5px;
+  height: 60px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 22px;
+  margin-bottom: 66px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  margin-right: 0;
+  font-family: "Montserrat";
+  outline: none;
+  border-style: none;
+}
+
+.lendme-alert .alert-wrapper button.alert-button .alert-button-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 22px;
+}
+
+.lendme-alert .alert-wrapper button.alert-button:last-child {
+  margin-bottom: 0;
+}
+
+.lendme-alert .alert-wrapper button.alert-button:first-child {
+  background-color: var(--ion-color-white);
+  border: 1px solid var(--ion-color-white);
+  color: var(--ion-color-black);
+}
+
+.lendme-alert .alert-wrapper button.alert-button.alert-button-role-cancel {
+  background-color: var(--ion-color-primary);
+  border: 1px solid var(--ion-color-white);
+  color: var(--ion-color-white);
+}
+
+.lendme-alert .alert-wrapper button.alert-button:hover, .lendme-alert .alert-wrapper button.alert-button:focus, .lendme-alert .alert-wrapper button.alert-button:active {
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
